@@ -29,7 +29,7 @@ public class CheckOutPage extends HttpServlet  {
 		        out.println(emp_id);
 				HttpSession sessions = request.getSession();
 				int lastGenKey = (int) sessions.getAttribute("lastGenKey");
-				System.out.println("jhfhdfhgff"+lastGenKey);
+				
 		
 				
 				//doPost(request, response);
